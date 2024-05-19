@@ -6,7 +6,7 @@ with open('README.md', 'r') as fh:
     LONG_DESCRIPTION = fh.read()
 
 setup(
-    name='pymsl',
+    name='jsorlie.pymsl',
     version='1.3',
     description='Python library for interacting with the Netflix MSL API',
     long_description=LONG_DESCRIPTION,
