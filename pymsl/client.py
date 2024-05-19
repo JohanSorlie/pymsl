@@ -54,7 +54,7 @@ DEFAULTS = {
 BASE_URL = 'https://www.netflix.com/nq/msl_v1/cadmium'
 
 ENDPOINTS = {
-    'manifest': BASE_URL + '/pbo_manifests/^1.0.0/router',
+    'manifest': BASE_URL + '/pbo_licenses/^1.0.0/router?reqName=manifest',
     'license': BASE_URL + '/pbo_licenses/^1.0.0/router',
 }
 
